@@ -29,6 +29,12 @@ class String
 
   def count_sentences
     @parts = self.split(/[.!?](\s|\z)/)
+    @count = 0
+    @parts.each do |part|
+      if part != " "
+        ++@count
+      end      
+    end
     binding.pry
   end
 end
