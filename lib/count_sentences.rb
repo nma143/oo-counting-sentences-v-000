@@ -33,7 +33,7 @@ class String
     @parts.each do |part|
       if part != " "
         ++@count
-      end      
+      end
     end
     binding.pry
   end
