@@ -36,5 +36,6 @@ class String
       end
     end
     binding.pry
+    @count
   end
 end
