@@ -28,6 +28,7 @@ class String
   end
 
   def count_sentences
-
+    @parts = self.split(/[.!?](\s|\z)/)
+    binding.pry
   end
 end
