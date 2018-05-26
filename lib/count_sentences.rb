@@ -35,7 +35,7 @@ class String
         @count = @count + 1
       end
     end
-    binding.pry
+    #binding.pry
     @count
   end
 end
